@@ -391,3 +391,59 @@
 2025-11-06 16:31:20,164 [INFO] 127.0.0.1 - - [06/Nov/2025 16:31:20] "POST /auth/login HTTP/1.1" 200 -
 2025-11-06 16:31:24,451 [WARNING] Login attempt for user: 'galagar' - Result: FAILED
 2025-11-06 16:31:24,453 [INFO] 127.0.0.1 - - [06/Nov/2025 16:31:24] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-11-08 08:35:22,170 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-08 08:35:22,171 [INFO] [33mPress CTRL+C to quit[0m
+2025-11-08 08:35:22,174 [INFO]  * Restarting with stat
+2025-11-08 08:35:23,329 [WARNING]  * Debugger is active!
+2025-11-08 08:35:23,342 [INFO]  * Debugger PIN: 361-290-912
+2025-11-08 08:40:44,058 [WARNING] Login attempt for user: 'wronguser' - Result: FAILED
+2025-11-08 08:40:44,060 [INFO] 127.0.0.1 - - [08/Nov/2025 08:40:44] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-11-08 08:40:52,580 [INFO] Login attempt for user: 'galagar' - Result: SUCCESS
+2025-11-08 08:40:52,585 [INFO] 127.0.0.1 - - [08/Nov/2025 08:40:52] "POST /auth/login HTTP/1.1" 200 -
+2025-11-08 08:41:31,447 [INFO] File saved: uploads/ab9f6b722465478a9fd68239165cf685\29b76092bb0c49869a496a30ba886c4d_pennywise.jpg
+2025-11-08 08:41:31,456 [INFO] 127.0.0.1 - - [08/Nov/2025 08:41:31] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-11-08 08:42:03,615 [INFO] 127.0.0.1 - - [08/Nov/2025 08:42:03] "GET /file/17 HTTP/1.1" 200 -
+2025-11-08 08:42:28,787 [INFO] File saved: uploads\7289abfae2524a58b0816c0a05641fac_invoker.jpg
+2025-11-08 08:42:28,802 [INFO] File updated: ID=17
+2025-11-08 08:42:28,804 [INFO] 127.0.0.1 - - [08/Nov/2025 08:42:28] "PUT /file/17 HTTP/1.1" 200 -
+2025-11-08 08:42:35,959 [INFO] 127.0.0.1 - - [08/Nov/2025 08:42:35] "GET /file/17 HTTP/1.1" 200 -
+2025-11-08 08:42:44,018 [INFO] File deleted from storage: uploads\7289abfae2524a58b0816c0a05641fac_invoker.jpg
+2025-11-08 08:42:44,050 [INFO] Record deleted: ID=17
+2025-11-08 08:42:44,050 [INFO] 127.0.0.1 - - [08/Nov/2025 08:42:44] "DELETE /file/17 HTTP/1.1" 200 -
+2025-11-08 08:42:47,989 [INFO] 127.0.0.1 - - [08/Nov/2025 08:42:47] "[33mGET /file/17 HTTP/1.1[0m" 404 -
+2025-11-08 11:41:12,114 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-08 11:41:12,115 [INFO] [33mPress CTRL+C to quit[0m
+2025-11-08 11:41:12,118 [INFO]  * Restarting with stat
+2025-11-08 11:41:13,305 [WARNING]  * Debugger is active!
+2025-11-08 11:41:13,311 [INFO]  * Debugger PIN: 109-105-135
+2025-11-08 11:43:28,786 [INFO] Login attempt for user: 'galagar' - Result: SUCCESS
+2025-11-08 11:43:28,787 [INFO] 127.0.0.1 - - [08/Nov/2025 11:43:28] "POST /auth/login HTTP/1.1" 200 -
+2025-11-08 11:43:37,352 [WARNING] Login attempt for user: 'galagar' - Result: FAILED
+2025-11-08 11:43:37,356 [INFO] 127.0.0.1 - - [08/Nov/2025 11:43:37] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-11-08 11:44:11,202 [INFO] File saved: uploads/af0d06986a2e43c7ac8c00c07a52f2d7\7cb150f2bc454dfaae8d339089856498_pennywise.jpg
+2025-11-08 11:44:11,207 [INFO] 127.0.0.1 - - [08/Nov/2025 11:44:11] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-11-08 11:44:26,438 [INFO] 127.0.0.1 - - [08/Nov/2025 11:44:26] "GET /file/19 HTTP/1.1" 200 -
+2025-11-08 11:44:49,341 [INFO] File saved: uploads\16c2330b3c1b4e999b2752a39f8fba99_invoker.jpg
+2025-11-08 11:44:49,363 [INFO] File updated: ID=19
+2025-11-08 11:44:49,366 [INFO] 127.0.0.1 - - [08/Nov/2025 11:44:49] "PUT /file/19 HTTP/1.1" 200 -
+2025-11-08 11:44:53,806 [INFO] 127.0.0.1 - - [08/Nov/2025 11:44:53] "GET /file/19 HTTP/1.1" 200 -
+2025-11-08 11:44:58,799 [INFO] File deleted from storage: uploads\16c2330b3c1b4e999b2752a39f8fba99_invoker.jpg
+2025-11-08 11:44:58,811 [INFO] Record deleted: ID=19
+2025-11-08 11:44:58,812 [INFO] 127.0.0.1 - - [08/Nov/2025 11:44:58] "DELETE /file/19 HTTP/1.1" 200 -
+2025-11-08 11:45:03,617 [INFO] 127.0.0.1 - - [08/Nov/2025 11:45:03] "[33mGET /file/19 HTTP/1.1[0m" 404 -
+2025-11-08 11:46:38,112 [INFO] Login attempt for user: 'galagar' - Result: SUCCESS
+2025-11-08 11:46:38,113 [INFO] 127.0.0.1 - - [08/Nov/2025 11:46:38] "POST /auth/login HTTP/1.1" 200 -
+2025-11-08 11:46:41,556 [WARNING] Login attempt for user: 'galagar' - Result: FAILED
+2025-11-08 11:46:41,556 [INFO] 127.0.0.1 - - [08/Nov/2025 11:46:41] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-11-08 11:47:00,087 [INFO] 127.0.0.1 - - [08/Nov/2025 11:47:00] "[33mGET /file/19 HTTP/1.1[0m" 404 -
+2025-11-08 11:47:05,030 [INFO] 127.0.0.1 - - [08/Nov/2025 11:47:05] "GET /file/1 HTTP/1.1" 200 -
+2025-11-08 11:47:35,846 [INFO] File saved: uploads\024ffddd2fca4608add84ed95393c661_invoker.jpg
+2025-11-08 11:47:35,857 [INFO] File updated: ID=1
+2025-11-08 11:47:35,859 [INFO] 127.0.0.1 - - [08/Nov/2025 11:47:35] "PUT /file/1 HTTP/1.1" 200 -
+2025-11-08 11:47:39,840 [INFO] 127.0.0.1 - - [08/Nov/2025 11:47:39] "GET /file/1 HTTP/1.1" 200 -
+2025-11-08 11:47:44,759 [INFO] File deleted from storage: uploads\024ffddd2fca4608add84ed95393c661_invoker.jpg
+2025-11-08 11:47:44,775 [INFO] Record deleted: ID=1
+2025-11-08 11:47:44,775 [INFO] 127.0.0.1 - - [08/Nov/2025 11:47:44] "DELETE /file/1 HTTP/1.1" 200 -
+2025-11-08 11:47:48,242 [INFO] 127.0.0.1 - - [08/Nov/2025 11:47:48] "[33mGET /file/1 HTTP/1.1[0m" 404 -

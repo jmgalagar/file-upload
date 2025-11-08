@@ -22,9 +22,6 @@ logging.basicConfig(
     format='%(asctime)s [%(levelname)s] %(message)s'
 )
 
-#from controllers.file_controller import file_bp #can i put these two imports at the top?
-#from controllers.auth_controller import auth_bp 
-
 app.register_blueprint(file_bp)
 app.register_blueprint(auth_bp, url_prefix='/auth') # Registered with a prefix
 
