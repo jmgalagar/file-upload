@@ -1,3 +1,4 @@
+# config.py
 import os
 from dotenv import load_dotenv
 
@@ -12,3 +13,7 @@ class Config:
     UPLOAD_FOLDER = os.getenv('UPLOAD_FOLDER', 'uploads')
     LOG_FOLDER = 'logs'
     DEBUG = True
+    # -----------------------------------------------------
+    # Step 8: Preparation for Future JWT Integration
+    # -----------------------------------------------------
+    JWT_SECRET_KEY = os.getenv('JWT_SECRET_KEY', 'default-jwt-secret') # NOTE: New

@@ -240,3 +240,154 @@
 2025-10-18 20:52:30,937 [INFO] 127.0.0.1 - - [18/Oct/2025 20:52:30] "[33mGET /file/2 HTTP/1.1[0m" 404 -
 2025-10-18 20:52:36,056 [INFO] 127.0.0.1 - - [18/Oct/2025 20:52:36] "GET /file/1 HTTP/1.1" 200 -
 2025-10-18 20:52:41,091 [INFO] 127.0.0.1 - - [18/Oct/2025 20:52:41] "GET /file/3 HTTP/1.1" 200 -
+2025-10-28 12:38:14,439 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-28 12:38:14,439 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-28 12:38:14,442 [INFO]  * Restarting with stat
+2025-10-28 12:38:15,980 [WARNING]  * Debugger is active!
+2025-10-28 12:38:15,989 [INFO]  * Debugger PIN: 361-290-912
+2025-11-06 14:15:23,249 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-06 14:15:23,250 [INFO] [33mPress CTRL+C to quit[0m
+2025-11-06 14:15:23,254 [INFO]  * Restarting with stat
+2025-11-06 14:15:25,030 [WARNING]  * Debugger is active!
+2025-11-06 14:15:25,045 [INFO]  * Debugger PIN: 361-290-912
+2025-11-06 14:15:44,968 [INFO] 127.0.0.1 - - [06/Nov/2025 14:15:44] "GET /file/3 HTTP/1.1" 200 -
+2025-11-06 14:16:23,701 [INFO] File deleted from storage: uploads\f5ff40448a954a1c87c3cc4ac027807d_panda.jpg
+2025-11-06 14:16:23,735 [INFO] Record deleted: ID=3
+2025-11-06 14:16:23,738 [INFO] 127.0.0.1 - - [06/Nov/2025 14:16:23] "DELETE /file/3 HTTP/1.1" 200 -
+2025-11-06 14:16:32,008 [INFO] 127.0.0.1 - - [06/Nov/2025 14:16:32] "[33mGET /file/3 HTTP/1.1[0m" 404 -
+2025-11-06 14:16:48,556 [INFO] 127.0.0.1 - - [06/Nov/2025 14:16:48] "GET /file/1 HTTP/1.1" 200 -
+2025-11-06 14:20:29,858 [INFO] File saved: uploads\4597ea6071654854801cfd5d8c504fa1_pennywise.jpg
+2025-11-06 14:20:29,878 [INFO] File updated: ID=1
+2025-11-06 14:20:29,880 [INFO] 127.0.0.1 - - [06/Nov/2025 14:20:29] "PUT /file/1 HTTP/1.1" 200 -
+2025-11-06 14:20:37,033 [INFO] 127.0.0.1 - - [06/Nov/2025 14:20:37] "GET /file/1 HTTP/1.1" 200 -
+2025-11-06 14:21:23,954 [INFO] 127.0.0.1 - - [06/Nov/2025 14:21:23] "[33mPOST /file HTTP/1.1[0m" 404 -
+2025-11-06 14:21:56,455 [INFO] File saved: uploads/0e73827f62b64ffda056012450a4560f\ec6199cfb6ff4ad7bce1344922a00da1_invoker_1.jpg
+2025-11-06 14:21:56,458 [INFO] 127.0.0.1 - - [06/Nov/2025 14:21:56] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-11-06 14:22:19,375 [INFO] File saved: uploads/197b4640230e4be08a0c544732dc3ca6\39a0c526fde64ddbbb19628fda4a3f49_invoker.jpg
+2025-11-06 14:22:19,377 [INFO] 127.0.0.1 - - [06/Nov/2025 14:22:19] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-11-06 14:22:41,391 [INFO] File saved: uploads/03eb3c6337d94f69876dad6d948a2e2a\6e1872778f5542e89057631f90be6b7b_invoker.jpg
+2025-11-06 14:22:41,397 [INFO] 127.0.0.1 - - [06/Nov/2025 14:22:41] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-11-06 14:23:04,485 [INFO] File saved: uploads/7cf5b5f7fddd4ba3b082dbb01ce42de4\a17037938fc64077b79013e909c2ef52_panda.jpg
+2025-11-06 14:23:04,487 [INFO] 127.0.0.1 - - [06/Nov/2025 14:23:04] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-11-06 14:23:17,677 [INFO] 127.0.0.1 - - [06/Nov/2025 14:23:17] "[33mPOST /uploads HTTP/1.1[0m" 404 -
+2025-11-06 14:23:56,996 [INFO] File saved: uploads/b273d7c30bac40bc9f1c0e85c567b609\297e878600944b9793dc6d55b2cb986b_panda.jpg
+2025-11-06 14:23:57,001 [INFO] 127.0.0.1 - - [06/Nov/2025 14:23:57] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-11-06 14:24:38,167 [INFO] File saved: uploads/d93a1feb2a6b475b9f1eee59890210ac\2f055048a546498a8b158a8d3d42798d_invoker.jpg
+2025-11-06 14:24:38,169 [INFO] 127.0.0.1 - - [06/Nov/2025 14:24:38] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-11-06 14:26:38,330 [INFO] File saved: uploads/f4888b04f81f45ff8960dbbb6b9a5df4\64d2c722871d4ef4b112c02ed4370184_invoker.jpg
+2025-11-06 14:26:38,333 [INFO] 127.0.0.1 - - [06/Nov/2025 14:26:38] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-11-06 14:26:53,982 [INFO] File saved: uploads/cb6db697972e4131b0543cb920c34b7f\d9c8e42ca1c54620903817026269b437_invoker.jpg
+2025-11-06 14:26:53,984 [INFO] 127.0.0.1 - - [06/Nov/2025 14:26:53] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-11-06 14:31:29,411 [INFO] 127.0.0.1 - - [06/Nov/2025 14:31:29] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-11-06 14:31:45,602 [INFO] File saved: uploads/6e3eeb22b2ce42ccade934d90ec077fa\f006a6fb23c3472b8057d452b64126aa_panda.jpg
+2025-11-06 14:31:45,604 [INFO] 127.0.0.1 - - [06/Nov/2025 14:31:45] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-11-06 14:32:05,062 [INFO] 127.0.0.1 - - [06/Nov/2025 14:32:05] "[33mGET /upload/1 HTTP/1.1[0m" 404 -
+2025-11-06 14:32:11,619 [INFO] 127.0.0.1 - - [06/Nov/2025 14:32:11] "GET /file/1 HTTP/1.1" 200 -
+2025-11-06 14:32:16,800 [INFO] 127.0.0.1 - - [06/Nov/2025 14:32:16] "[33mGET /file/2 HTTP/1.1[0m" 404 -
+2025-11-06 14:32:21,070 [INFO] 127.0.0.1 - - [06/Nov/2025 14:32:21] "[33mGET /file/3 HTTP/1.1[0m" 404 -
+2025-11-06 14:32:24,899 [ERROR] Get error: [WinError 2] The system cannot find the file specified: 'C:\\Users\\John\\file-upload\\uploads\\f5ff40448a954a1c87c3cc4ac027807d_panda.jpg'
+2025-11-06 14:32:24,900 [INFO] 127.0.0.1 - - [06/Nov/2025 14:32:24] "[31m[1mGET /file/4 HTTP/1.1[0m" 400 -
+2025-11-06 14:32:33,706 [INFO] 127.0.0.1 - - [06/Nov/2025 14:32:33] "GET /file/5 HTTP/1.1" 200 -
+2025-11-06 14:32:39,571 [INFO] 127.0.0.1 - - [06/Nov/2025 14:32:39] "GET /file/6 HTTP/1.1" 200 -
+2025-11-06 14:32:43,642 [INFO] 127.0.0.1 - - [06/Nov/2025 14:32:43] "GET /file/7 HTTP/1.1" 200 -
+2025-11-06 14:32:48,351 [INFO] 127.0.0.1 - - [06/Nov/2025 14:32:48] "GET /file/8 HTTP/1.1" 200 -
+2025-11-06 14:32:53,935 [INFO] 127.0.0.1 - - [06/Nov/2025 14:32:53] "GET /file/9 HTTP/1.1" 200 -
+2025-11-06 14:32:58,650 [INFO] 127.0.0.1 - - [06/Nov/2025 14:32:58] "GET /file/10 HTTP/1.1" 200 -
+2025-11-06 14:33:02,556 [INFO] 127.0.0.1 - - [06/Nov/2025 14:33:02] "GET /file/11 HTTP/1.1" 200 -
+2025-11-06 14:33:06,406 [INFO] 127.0.0.1 - - [06/Nov/2025 14:33:06] "GET /file/12 HTTP/1.1" 200 -
+2025-11-06 14:33:09,760 [INFO] 127.0.0.1 - - [06/Nov/2025 14:33:09] "GET /file/13 HTTP/1.1" 200 -
+2025-11-06 14:59:25,965 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-06 14:59:25,965 [INFO] [33mPress CTRL+C to quit[0m
+2025-11-06 14:59:25,968 [INFO]  * Restarting with stat
+2025-11-06 14:59:27,079 [WARNING]  * Debugger is active!
+2025-11-06 14:59:27,089 [INFO]  * Debugger PIN: 361-290-912
+2025-11-06 15:00:26,055 [INFO] 127.0.0.1 - - [06/Nov/2025 15:00:26] "[33mGET /auth/login HTTP/1.1[0m" 404 -
+2025-11-06 15:00:34,733 [INFO] 127.0.0.1 - - [06/Nov/2025 15:00:34] "[33mGET /auth/login HTTP/1.1[0m" 404 -
+2025-11-06 15:01:02,180 [INFO] 127.0.0.1 - - [06/Nov/2025 15:01:02] "[33mPOST /auth/login HTTP/1.1[0m" 404 -
+2025-11-06 15:01:04,110 [INFO] 127.0.0.1 - - [06/Nov/2025 15:01:04] "[33mPOST /auth/login HTTP/1.1[0m" 404 -
+2025-11-06 15:01:46,531 [INFO] 127.0.0.1 - - [06/Nov/2025 15:01:46] "[33mPOST /auth/login HTTP/1.1[0m" 404 -
+2025-11-06 15:02:28,662 [INFO]  * Detected change in 'C:\\Users\\John\\file-upload\\config.py', reloading
+2025-11-06 15:02:28,666 [INFO]  * Detected change in 'C:\\Users\\John\\file-upload\\config.py', reloading
+2025-11-06 15:02:28,827 [INFO]  * Restarting with stat
+2025-11-06 15:02:28,920 [INFO]  * Restarting with stat
+2025-11-06 15:02:30,956 [WARNING]  * Debugger is active!
+2025-11-06 15:02:30,964 [WARNING]  * Debugger is active!
+2025-11-06 15:02:30,971 [INFO]  * Debugger PIN: 361-290-912
+2025-11-06 15:02:30,976 [INFO]  * Debugger PIN: 361-290-912
+2025-11-06 15:02:32,128 [INFO]  * Detected change in 'C:\\Users\\John\\file-upload\\extensions.py', reloading
+2025-11-06 15:02:32,130 [INFO]  * Detected change in 'C:\\Users\\John\\file-upload\\extensions.py', reloading
+2025-11-06 15:02:32,290 [INFO]  * Restarting with stat
+2025-11-06 15:06:28,008 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-06 15:06:28,009 [INFO] [33mPress CTRL+C to quit[0m
+2025-11-06 15:06:28,011 [INFO]  * Restarting with stat
+2025-11-06 15:06:29,160 [WARNING]  * Debugger is active!
+2025-11-06 15:06:29,170 [INFO]  * Debugger PIN: 361-290-912
+2025-11-06 15:08:07,159 [WARNING] Login attempt for user: 'wronguser' - Result: FAILED
+2025-11-06 15:08:07,161 [INFO] 127.0.0.1 - - [06/Nov/2025 15:08:07] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-11-06 15:08:34,110 [INFO] Login attempt for user: 'testuser' - Result: SUCCESS
+2025-11-06 15:08:34,111 [INFO] 127.0.0.1 - - [06/Nov/2025 15:08:34] "POST /auth/login HTTP/1.1" 200 -
+2025-11-06 15:14:42,031 [INFO] Login attempt for user: 'testuser' - Result: SUCCESS
+2025-11-06 15:14:42,032 [INFO] 127.0.0.1 - - [06/Nov/2025 15:14:42] "POST /auth/login HTTP/1.1" 200 -
+2025-11-06 15:15:12,503 [INFO]  * Detected change in 'C:\\Users\\John\\file-upload\\controllers\\auth_controller.py', reloading
+2025-11-06 15:15:12,747 [INFO]  * Restarting with stat
+2025-11-06 15:15:14,474 [WARNING]  * Debugger is active!
+2025-11-06 15:15:14,482 [INFO]  * Debugger PIN: 361-290-912
+2025-11-06 15:15:38,154 [INFO] 127.0.0.1 - - [06/Nov/2025 15:15:38] "[31m[1mGET /auth/login HTTP/1.1[0m" 405 -
+2025-11-06 15:15:45,874 [INFO] Login attempt for user: 'testuser' - Result: SUCCESS
+2025-11-06 15:15:45,874 [INFO] 127.0.0.1 - - [06/Nov/2025 15:15:45] "POST /auth/login HTTP/1.1" 200 -
+2025-11-06 15:16:03,682 [WARNING] Login attempt for user: 'tes11tuser' - Result: FAILED
+2025-11-06 15:16:03,683 [INFO] 127.0.0.1 - - [06/Nov/2025 15:16:03] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-11-06 15:17:59,276 [INFO] 127.0.0.1 - - [06/Nov/2025 15:17:59] "GET /file/8 HTTP/1.1" 200 -
+2025-11-06 15:18:30,318 [INFO] 127.0.0.1 - - [06/Nov/2025 15:18:30] "[31m[1mPUT /file/8 HTTP/1.1[0m" 400 -
+2025-11-06 15:18:44,428 [INFO] File saved: uploads\b6d84ca617634553a39ad7e47af9a12c_panda.jpg
+2025-11-06 15:18:44,624 [INFO] File updated: ID=8
+2025-11-06 15:18:44,626 [INFO] 127.0.0.1 - - [06/Nov/2025 15:18:44] "PUT /file/8 HTTP/1.1" 200 -
+2025-11-06 15:18:53,644 [INFO] 127.0.0.1 - - [06/Nov/2025 15:18:53] "GET /file/8 HTTP/1.1" 200 -
+2025-11-06 15:19:00,473 [INFO] File deleted from storage: uploads\b6d84ca617634553a39ad7e47af9a12c_panda.jpg
+2025-11-06 15:19:00,491 [INFO] Record deleted: ID=8
+2025-11-06 15:19:00,491 [INFO] 127.0.0.1 - - [06/Nov/2025 15:19:00] "DELETE /file/8 HTTP/1.1" 200 -
+2025-11-06 15:19:06,636 [INFO] 127.0.0.1 - - [06/Nov/2025 15:19:06] "[33mGET /file/8 HTTP/1.1[0m" 404 -
+2025-11-06 15:19:44,672 [INFO] File saved: uploads/178cd62b26da4598be5ab27413c3690b\4b50864272eb4d89a81a69ca851b2f32_panda.jpg
+2025-11-06 15:19:44,685 [INFO] 127.0.0.1 - - [06/Nov/2025 15:19:44] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-11-06 15:19:55,571 [INFO] 127.0.0.1 - - [06/Nov/2025 15:19:55] "[31m[1mPOST /file/16 HTTP/1.1[0m" 405 -
+2025-11-06 15:20:00,971 [INFO] 127.0.0.1 - - [06/Nov/2025 15:20:00] "GET /file/16 HTTP/1.1" 200 -
+2025-11-06 15:20:20,436 [WARNING] Login attempt for user: 'tes11tuser' - Result: FAILED
+2025-11-06 15:20:20,436 [INFO] 127.0.0.1 - - [06/Nov/2025 15:20:20] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-11-06 15:20:36,773 [INFO] Login attempt for user: 'testuser' - Result: SUCCESS
+2025-11-06 15:20:36,775 [INFO] 127.0.0.1 - - [06/Nov/2025 15:20:36] "POST /auth/login HTTP/1.1" 200 -
+2025-11-06 15:53:58,629 [INFO]  * Detected change in 'C:\\Users\\John\\file-upload\\app.py', reloading
+2025-11-06 15:53:58,765 [INFO]  * Restarting with stat
+2025-11-06 15:54:00,565 [WARNING]  * Debugger is active!
+2025-11-06 15:54:00,579 [INFO]  * Debugger PIN: 361-290-912
+2025-11-06 15:57:47,012 [WARNING] Login attempt for user: 'wronguser' - Result: FAILED
+2025-11-06 15:57:47,012 [INFO] 127.0.0.1 - - [06/Nov/2025 15:57:47] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-11-06 15:58:01,947 [INFO] Login attempt for user: 'testuser' - Result: SUCCESS
+2025-11-06 15:58:01,947 [INFO] 127.0.0.1 - - [06/Nov/2025 15:58:01] "POST /auth/login HTTP/1.1" 200 -
+2025-11-06 15:58:20,541 [INFO] 127.0.0.1 - - [06/Nov/2025 15:58:20] "GET /file/16 HTTP/1.1" 200 -
+2025-11-06 16:07:41,061 [INFO] Login attempt for user: 'testuser' - Result: SUCCESS
+2025-11-06 16:07:41,062 [INFO] 127.0.0.1 - - [06/Nov/2025 16:07:41] "POST /auth/login HTTP/1.1" 200 -
+2025-11-06 16:12:05,405 [INFO]  * Detected change in 'C:\\Users\\John\\file-upload\\controllers\\auth_controller.py', reloading
+2025-11-06 16:12:05,565 [INFO]  * Restarting with stat
+2025-11-06 16:12:07,382 [WARNING]  * Debugger is active!
+2025-11-06 16:12:07,389 [INFO]  * Debugger PIN: 361-290-912
+2025-11-06 16:12:08,433 [WARNING] Login attempt for user: 'testuser' - Result: FAILED
+2025-11-06 16:12:08,434 [INFO] 127.0.0.1 - - [06/Nov/2025 16:12:08] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-11-06 16:12:15,766 [INFO] Login attempt for user: 'galagar' - Result: SUCCESS
+2025-11-06 16:12:15,771 [INFO] 127.0.0.1 - - [06/Nov/2025 16:12:15] "POST /auth/login HTTP/1.1" 200 -
+2025-11-06 16:12:27,948 [INFO] 127.0.0.1 - - [06/Nov/2025 16:12:27] "GET /file/16 HTTP/1.1" 200 -
+2025-11-06 16:28:55,181 [INFO] Login attempt for user: 'galagar' - Result: SUCCESS
+2025-11-06 16:28:55,182 [INFO] 127.0.0.1 - - [06/Nov/2025 16:28:55] "POST /auth/login HTTP/1.1" 200 -
+2025-11-06 16:29:30,933 [INFO] Login attempt for user: 'galagar' - Result: SUCCESS
+2025-11-06 16:29:30,934 [INFO] 127.0.0.1 - - [06/Nov/2025 16:29:30] "POST /auth/login HTTP/1.1" 200 -
+2025-11-06 16:29:35,590 [WARNING] Login attempt for user: 'galaqqgar' - Result: FAILED
+2025-11-06 16:29:35,590 [INFO] 127.0.0.1 - - [06/Nov/2025 16:29:35] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-11-06 16:29:40,773 [WARNING] Login attempt for user: 'galaqqgar' - Result: FAILED
+2025-11-06 16:29:40,775 [INFO] 127.0.0.1 - - [06/Nov/2025 16:29:40] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-11-06 16:31:20,164 [INFO] Login attempt for user: 'galagar' - Result: SUCCESS
+2025-11-06 16:31:20,164 [INFO] 127.0.0.1 - - [06/Nov/2025 16:31:20] "POST /auth/login HTTP/1.1" 200 -
+2025-11-06 16:31:24,451 [WARNING] Login attempt for user: 'galagar' - Result: FAILED
+2025-11-06 16:31:24,453 [INFO] 127.0.0.1 - - [06/Nov/2025 16:31:24] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
